@@ -1,6 +1,6 @@
 # RG35XX-SP Setup and Tweaks
 
-I've recently opined for playing some games on the go on a device less clunky than a Steam Deck - re-visiting or finishing things that I never finished. Maybe I'm getting old..
+I've recently pined for playing some games on the go on a device less clunky than a Steam Deck - re-visiting or finishing things that I never finished. Maybe I'm getting old..
 
 Anyways, I saw that Anbernic released a cute new little SP clone - a clamshell emulator running with retroarch, supporting ROMS up to PSX, essentially. It was reasonably priced (link at bottom), so I decided to grab one.
 
