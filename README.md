@@ -26,11 +26,17 @@ unzip RG35XX-PLUSH24/muOS-RG35XX-2405-BEANS.zip
 
 ## Writing to a MicroSD card
 
+⚠️ Make sure you are pointing this to the `df -h`, `gnome-disks`, or `gparted` might help you better visualize this better before imaging.
+
+When you aer ready with your path to the MicroSD you have connected to your machine, go ahead and start imaging with the following one-liner:
+
 ```
 sudo dd if=muOS-RG35XX-2405-BEANS.img of=/dev/sdc status=progress && sync
 ```
 
 ## First bootup on the RG35XX-SP
+
+
 
 ## Adding games
 
