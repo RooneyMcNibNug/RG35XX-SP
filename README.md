@@ -7,7 +7,8 @@ Then I saw that Anbernic released a cute new little SP clone - a clamshell emula
 
 I've got to say, it is so nice tyo have a clamshell device like that that I can close up and toss in by backpack as I travel:
 
-{image}
+![open](/IMG/open_dithered.png)
+![shut](/IMG/closed_dithered.png)
 
 One of the things that I felt could be improved was the firmware the device was running with. Anbernic shipped the device with a its stock firmware and a bunch of goodies. I found the firmware a bit clunky - lacking swiftness and a simple and sleek interface. 
 
@@ -43,3 +44,7 @@ sudo dd if=muOS-RG35XX-2405-BEANS.img of=/dev/sdc status=progress && sync
 ## Adding and installing themes
 
 ## Handling Save States
+
+## Have at it!
+
+![organ music blasting](/IMG/ffvi_demo.gif)
