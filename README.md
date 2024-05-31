@@ -108,9 +108,9 @@ You can easily install and switch themes for the muOS system.
 
 These are bundled and compressed in `.zip` files. When you download these you can just move them into the `../ROMS/ARCHIVE/` directory of the MicroSD card you have muOS installed on, no need ot extract anything yourself from your linux machine.
 
-From the XX-SP you can install these by going to ** Apps > Archive Manager > {select the `.zip` you want} > A BUTTON **
+From the XX-SP you can install these by going to **Apps > Archive Manager > {select the `.zip` you want} > A BUTTON**
 
-And to change the theme from your XX-SP: ** Config > Theme Picker > {select the theme} > A BUTTON **
+And to change the theme from your XX-SP: **Config > Theme Picker > {select the theme} > A BUTTON**
 
 There are lots of crowd-sourced themes - unfortunately, a lot of them are showcased on a discord server (_sigh_).
 
@@ -121,7 +121,7 @@ Here are direct links for a couple I really like:
 
 ## Handling Save States
 
-After some hours of gaming, I found the designed shortkeys were pretty bad for handling Save States, and I just started using ** `MENU + X` > Save State/Load State ** to manage this type of thing via RetroArch. I found this a much more pleasant experience.
+After some hours of gaming, I found the designed shortkeys were pretty bad for handling Save States, and I just started using **`MENU + X` > Save State/Load State** to manage this type of thing via RetroArch. I found this a much more pleasant experience.
 
 ## Go play some games!
 
