@@ -13,6 +13,14 @@ Using the device, one of the things that I immediately felt could be improved wa
 
 I decided to give MuOS a try: https://muos.dev
 
+⚠️ Please note that as of writing this, the following functins on the XX-SP do <ins>not</ins> work with muOS:
+
+- Close-lid-to-sleep functionality (although I think this is in the works?)
+- Audio output via HDMI (video works fine)
+- Bluetooth
+
+These losses are fine for me for now, as I rely on Save States more than I would ever consider the sleep function, but it would be cool to be able to eventually be able to hook this up to a TV and use the other two functions with this custom firmware. Either way, this is a "grab-and-go" pieace of hardware for me for now anyways, so this is all still needs suiting. All of the controls and emulation works great on muOS, and that's what matters.
+
 The following will serve as a guide to installing and tweaking things for MuOS on the RG35XX-SP. It assumes that you are using a PC/laptop running a linux distro (trying to use coreutils as much as possible).
 
 I will add things to this README as I make changes that seem.. interesting enough to document here.
@@ -106,9 +114,13 @@ You can place your roms in the appropriate folders from there, and muOS will do 
 
 You can easily install and switch themes for the muOS system. 
 
-These are bundled and compressed in `.zip` files. When you download these you can just move them into the `../ROMS/ARCHIVE/` directory of the MicroSD card you have muOS installed on, no need ot extract anything yourself from your linux machine.
+These are bundled and compressed in `.zip` files. When you download these you usually have to do one of two things:
 
-From the XX-SP you can install these by going to **Apps > Archive Manager > {select the `.zip` you want} > A BUTTON**
+- Sometimes you can just move the `.zip`s into the `../muos/THEMES/` directory of the MicroSD card you have muOS installed on, no need to extract anything yourself from your linux machine. When you turn the XX-SP on you should just see these in the **Themes** section of the **Config** menu.
+- Other times you will need to move them into the `../ROMS/ARCHIVE/` directory of the MicroSD, still no need to extract from your linux machine. Then from the XX-SP you can install these by going to **Apps > Archive Manager > {select the `.zip` you want} > A BUTTON**
+- Other times you will need 
+
+Usually on the site hosting the theme the creator will speifcify where these need to go, anyways.
 
 And to change the theme from your XX-SP: **Config > Theme Picker > {select the theme} > A BUTTON**
 
