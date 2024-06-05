@@ -145,7 +145,7 @@ Please note that RA does not seem to cache any progress you make with achievemen
 
 ## Handling with care
 
-I know this is a clamshell and inherently a great way to keep the screen safe from damage, but I can be clumsy sometimes.. I don't want to buy a case really, so I thought about even just getting some decent fabric and sewing it up into a little pouch for the XX-SP. For now, I am using a beer coozie for when I throw this in my backpack. No, I'm not jopking. This doubles as a decent layer of protection for the hardware while also keeps my fingers dry if I want to have a can of something while gaming 😄
+I know this is a clamshell and inherently a great way to keep the screen safe from damage, but I can be clumsy sometimes.. I don't want to buy a case really, so I thought about even just getting some decent fabric and sewing it up into a little pouch for the XX-SP. For now, I am using a beer coozie for when I throw this in my backpack. No, I'm not joking. This doubles as a decent layer of protection for the hardware while also keeps my fingers dry if I want to have a can of something while gaming 😄
 
 ## Go play some games!
 
