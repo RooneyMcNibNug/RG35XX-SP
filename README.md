@@ -135,6 +135,18 @@ Here are direct links for a couple I really like:
 
 After some hours of gaming, I found the designed shortkeys were pretty bad for handling Save States, and I just started using **`MENU + X` > Save State/Load State** to manage this type of thing via RetroArch. I found this a much more pleasant experience.
 
+## Achievements
+
+It requires wifi to be configured and on, but you can set up Retro Achievements within RetroArch if you have an account at https://retroachievements.org
+
+YOu can do this by going to **Apps > RetroArch > Settings > Achievements** and then put in your login information.
+
+Please note that RA does not seem to cache any progress you make with achievements when you are not connected to wifi or if your connection is severed, so its a bit finnicky in that way.
+
+## Handling with care
+
+I know this is a clamshell and inherently a great way to keep the screen safe from damage, but I can be clumsy sometimes.. I don't want to buy a case really, so I thought about even just getting some decent fabric and sewing it up into a little pouch for the XX-SP. For now, I am using a beer coozie for when I throw this in my backpack. No, I'm not jopking. This doubles as a decent layer of protection for the hardware while also keeps my fingers dry if I want to have a can of something while gaming 😄
+
 ## Go play some games!
 
 This device is great. I recommend [picking one up](https://anbernic.com/products/rg35xxsp) if you have the means. 
