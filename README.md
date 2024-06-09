@@ -92,7 +92,7 @@ It might even be a good idea to just clone this repo and save these somewhere, o
 
 muOS seems to install some popular/less-legally-concerning BIOS files for emulating gaming systems. For any other BIOS files you want, you'll have to fin them on the internet and simply add them to the following path on the MicroSD:
 
-`../ROMS/MUOS/bios`
+`../MUOS/bios`
 
 ## Adding games
 
