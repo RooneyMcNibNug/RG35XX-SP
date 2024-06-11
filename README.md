@@ -133,7 +133,20 @@ Here are direct links for a couple I really like:
 
 ## Handling Save States
 
-After some hours of gaming, I found the designed shortkeys were pretty bad for handling Save States, and I just started using **`MENU + X` > Save State/Load State** to manage this type of thing via RetroArch. I found this a much more pleasant experience.
+Something important I did for a change in organization of Saves and Save States was this:
+
+Go to **Application > RetroArch > Settings > Saving** and make the following changes:
+
+- Set `Sort Saves into Folders by Core Name` to `OFF`
+- Set `Sort Save States into Folders by Core Name` to `OFF`
+- Set `Sort Saves into Folders by Content Directory` to `ON`
+- Set `Sort Save Sates into Folders by Content Directory` to `ON`
+
+Hit **Save Configuration** in the main RetroArch menu after this.
+
+This will allow your saves/states to be retained in their System-based folders instead of via emulator Core-based folders, so a files for a GBA game like Wario World 4 will be saved as `../ROMS/MUOS/save/state/GBA/Wario Land 4 (USA).sate1`
+
+After some hours of gaming, I also found the designed shortkeys were pretty bad for handling Save States, and I just started using **`MENU + X` > Save State/Load State** to manage this type of thing via RetroArch. I found this a much more pleasant experience. But hey, its good to have both as option at the end of the day.
 
 ## Achievements
 
@@ -142,6 +155,19 @@ It requires wifi to be configured and on, but you can set up Retro Achievements 
 YOu can do this by going to **Apps > RetroArch > Settings > Achievements** and then put in your login information.
 
 Please note that RA does not seem to cache any progress you make with achievements when you are not connected to wifi or if your connection is severed, so its a bit finnicky in that way.
+
+## Simpler Backups
+
+muOS comes with some pre-existing bash scripts for backing up your fames, configurations, saves, and artwork. This is great, but these are all in different scripts each and also I've found in certain circumstances they can bea bit finnicky.
+
+I whipped up https://github.com/RooneyMcNibNug/RG35XX-SP/blob/main/holistic_bkp.sh to be a single "good enough" script to back up the following (and only the following):
+
+- Saves and States for any games
+- Screenshots taken from all emulators
+- All BIOS files you have on the device
+- The main RetroArch configuration files
+
+NOTE: These backups won't work directly with the backup manager, but its nice to have these files without a zip to quickly also use locally if you'd like (on the pC you are backing them up to). You can always throw them back into the microSD manaully or send them Over The Wire.
 
 ## Handling with care
 
