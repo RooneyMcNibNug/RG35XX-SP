@@ -144,7 +144,7 @@ Go to **Application > RetroArch > Settings > Saving** and make the following cha
 
 Hit **Save Configuration** in the main RetroArch menu after this.
 
-This will allow your saves/states to be retained in their System-based folders instead of via emulator Core-based folders, so a files for a GBA game like Wario World 4 will be saved as `../ROMS/MUOS/save/state/GBA/Wario Land 4 (USA).sate1`
+This will allow your saves/states to be retained in their System-based folders instead of emulator Core-based folders, so a file for a GBA game like Wario Land 4 will be saved as `../ROMS/MUOS/save/state/GBA/Wario Land 4 (USA).sate1`
 
 After some hours of gaming, I also found the designed shortkeys were pretty bad for handling Save States, and I just started using **`MENU + X` > Save State/Load State** to manage this type of thing via RetroArch. I found this a much more pleasant experience. But hey, its good to have both as option at the end of the day.
 
@@ -152,7 +152,7 @@ After some hours of gaming, I also found the designed shortkeys were pretty bad 
 
 It requires wifi to be configured and on, but you can set up Retro Achievements within RetroArch if you have an account at https://retroachievements.org
 
-YOu can do this by going to **Apps > RetroArch > Settings > Achievements** and then put in your login information.
+You can do this by going to **Apps > RetroArch > Settings > Achievements** then put in your login information.
 
 Please note that RA does not seem to cache any progress you make with achievements when you are not connected to wifi or if your connection is severed, so its a bit finnicky in that way.
 
@@ -160,7 +160,7 @@ Please note that RA does not seem to cache any progress you make with achievemen
 
 muOS comes with some pre-existing bash scripts for backing up your fames, configurations, saves, and artwork. This is great, but these are all in different scripts each and also I've found in certain circumstances they can bea bit finnicky.
 
-I whipped up https://github.com/RooneyMcNibNug/RG35XX-SP/blob/main/holistic_bkp.sh to be a single "good enough" script to back up the following (and only the following):
+I whipped up https://github.com/RooneyMcNibNug/RG35XX-SP/blob/main/holistic_bkp.sh to be a single "good enough" script to backup the following (and only the following):
 
 - Saves and States for any games
 - Screenshots taken from all emulators
