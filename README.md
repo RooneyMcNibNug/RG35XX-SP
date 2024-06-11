@@ -9,17 +9,17 @@ I've got to say, it is nice to have a clamshell device like this. I can close up
 ![open](/IMG/open_dithered.png)
 ![shut](/IMG/closed_dithered.png)
 
-Using the device, one of the things that I immediately felt could be improved was the firmware the device was running with. It ships with a stock Anbernic firmware and a bunch of goodies. I found the firmware a bit clunky - lacking swiftness, and wanted a more simple and sleek interface.
+Using the device, one of the things that I immediately felt could be improved was the firmware it comes pre-loaded with. It ships with a stock Anbernic firmware and a bunch of goodies. I found the firmware a bit clunky - lacking swiftness, and wanted a more simple and sleek interface.
 
 I decided to give MuOS a try: https://muos.dev
 
-⚠️ Please note that as of writing this, the following functins on the XX-SP do <ins>not</ins> work with muOS:
+⚠️ Please note that as of writing this, the following functions on the XX-SP do <ins>not</ins> work with muOS:
 
 - Close-lid-to-sleep functionality (although I think this is in the works?)
 - Audio output via HDMI (video works fine)
 - Bluetooth
 
-These losses are fine for me for now, as I rely on Save States more than I would ever consider the sleep function, but it would be cool to be able to eventually be able to hook this up to a TV and use the other two functions with this custom firmware. Either way, this is a "grab-and-go" pieace of hardware for me for now anyways, so this is all still needs suiting. All of the controls and emulation works great on muOS, and that's what matters.
+These losses are fine for me for now, as I rely fine on manual Save States more than I would ever consider the sleep function, but it would be cool to be able to eventually be able to hook this up to a TV and use the other two functions with this custom firmware. Either way, this is a "grab-and-go" pieace of hardware for me for now anyways, so this is all still needs suiting. All of the controls and emulation works great on muOS, and that's what matters.
 
 The following will serve as a guide to installing and tweaking things for MuOS on the RG35XX-SP. It assumes that you are using a PC/laptop running a linux distro (trying to use coreutils as much as possible).
 
