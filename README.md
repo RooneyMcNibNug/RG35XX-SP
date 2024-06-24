@@ -14,12 +14,7 @@ Using the device, one of the things that I immediately felt could be improved wa
 I decided to give MuOS a try: https://muos.dev
 
 ⚠️ Please note that as of writing this, the following functions on the XX-SP do <ins>not</ins> work with muOS:
-
-- Close-lid-to-sleep functionality (although I think this is in the works?)
-- Audio output via HDMI (video works fine)
 - Bluetooth
-
-These losses are fine for me for now, as I rely fine on manual Save States more than I would ever consider the sleep function, but it would be cool to be able to eventually be able to hook this up to a TV and use the other two functions with this custom firmware. Either way, this is a "grab-and-go" pieace of hardware for me for now anyways, so this is all still needs suiting. All of the controls and emulation works great on muOS, and that's what matters.
 
 The following will serve as a guide to installing and tweaking things for MuOS on the RG35XX-SP. It assumes that you are using a PC/laptop running a linux distro (trying to use coreutils as much as possible).
 
@@ -27,15 +22,15 @@ I will add things to this README as I make changes that seem.. interesting enoug
 
 ## Downloading the firmware
 
-Latest version of the firmware can be downloaded from https://muos.dev/release/plush. As of writing this, there is no dedicated firmware for the XX-SP, so it is using the same firmware based on the RG35XX Plus and H. I have tested these to work just fine with the SP model I am using.
+Latest version of the firmware can be downloaded from https://muos.dev/release/plush.
 
 Let's just do this in terminal:
 
 ```
-wget https://dl.muos.dev/RG35XX-PLUSH24/muOS-RG35XX-2405-BEANS.zip
+wget https://dl.muos.dev/RG35XX-SPLUSH24/muOS-RG35XX-2405.1-REFRIED.zip
 ```
 ```
-unzip RG35XX-PLUSH24/muOS-RG35XX-2405-BEANS.zip
+unzip RG35XX-PLUSH24/muOS-RG35XX-2405.1-REFRIED.zip
 ```
 
 ## Writing to a MicroSD card
@@ -51,7 +46,7 @@ Plug it into your linux machine.
 When you are ready, go ahead and start imaging with the following one-liner:
 
 ```
-sudo dd if=muOS-RG35XX-2405-BEANS.img of=/dev/sdc status=progress && sync
+sudo dd if=muOS-RG35XX-2405.1-REFRIED.img of=/dev/sdc status=progress && sync
 ```
 *`/dev/sdc` should be replaced with your proper drive for the card
 
@@ -61,7 +56,11 @@ Once this is finished, we can eject the card from the machine and load it back i
 
 Hold the power button down until you see the green light on the side appears (takes a few seconds).
 
-The splash screen with the muOS logo will appear. Let's not go flailing around with the d-pad or any buttons yet! Let the device do its thing, setting up the system - you will see a lot of `Factory Reset` messages, but don't worry, it will keep you up to date with the process (even providing you with silly quotes along the way).
+The splash screen with the muOS logo will appear. 
+
+Within the "DEVICE TYPE" section you first see, make sure to select "RG35XX-SP".
+
+After this, Let the device do its thing, setting up the system - you will see a lot of `Factory Reset` messages, but don't worry, it will keep you up to date with the process (even providing you with silly quotes along the way).
 
 After 5-10 minutes this process should complete and you will be brought to a dashboard. Go ahead and hold the power button for a few seconds to turn the device off and take the MicroSD card out of the XX-SP and back into your linux machine.
 
@@ -130,6 +129,8 @@ Here are direct links for a couple I really like:
 
 - https://github.com/vacarotti/muOS_GamePal_Theme/releases/tag/Theme
 - https://www.patreon.com/posts/pop-theme-only-104940129
+
+There is a great collection of a ton of other themes in this repo: https://github.com/MustardOS/theme
 
 ## Handling Save States
 
