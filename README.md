@@ -117,7 +117,6 @@ These are bundled and compressed in `.zip` files. When you download these you us
 
 - Sometimes you can just move the `.zip`s into the `../muos/THEMES/` directory of the MicroSD card you have muOS installed on, no need to extract anything yourself from your linux machine. When you turn the XX-SP on you should just see these in the **Themes** section of the **Config** menu.
 - Other times you will need to move them into the `../ROMS/ARCHIVE/` directory of the MicroSD, still no need to extract from your linux machine. Then from the XX-SP you can install these by going to **Apps > Archive Manager > {select the `.zip` you want} > A BUTTON**
-- Other times you will need 
 
 Usually on the site hosting the theme the creator will speifcify where these need to go, anyways.
 
