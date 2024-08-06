@@ -70,13 +70,13 @@ Before changing anything else, consider this as a 'back-pocket': These are all t
 
 | Type      | Control |
 | --------- | --------|
-| Brightness  | MENU + VOLUME|
-| Screenshot  | L2 + R2 |
-| Sleep Suspend  | HOLD PWR (2 SEC) |
+| Brightness  | MENU + VOLUME |
+| Screenshot  | MENU + POWER (quick) |
+| Sleep Shutdown  | HOLD PWR (2 SEC) |
 | (Re)Select Core  | Press SELECT on content |
-| Content Root | Cell 2, Row 1 |
+| Content Root | Press START on content |
 | RetroArch Menu | MENU + X |
-| RetroArch Close Content | START + SELECT |
+| RetroArch Close Content | MENU + START |
 | Fast Forward Toggle  | MENU + R1 |
 | Load State | MENU + R2 |
 | Save State | MENU + L2 |
@@ -85,7 +85,7 @@ Before changing anything else, consider this as a 'back-pocket': These are all t
 
 It might even be a good idea to just clone this repo and save these somewhere, or save the following image to your XX-SP to view in case you need it (maybe not worth it):
 
-![image](https://github.com/RooneyMcNibNug/RG35XX-SP/assets/17930955/dbfd7345-5653-495f-8f9a-071cebf019e5)
+<img width="371" alt="image" src="https://github.com/user-attachments/assets/c967f0e9-2399-49fd-a666-69e31cc82639">
 
 ## Adding BIOS files
 
