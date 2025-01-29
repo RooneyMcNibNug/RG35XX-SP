@@ -22,15 +22,17 @@ I will add things to this README as I make changes that seem.. interesting enoug
 
 ## Downloading the firmware
 
-Latest version of the firmware can be downloaded from https://muos.dev/release/plush.
+At the time of writing, the latest version available is `muOS 2410.3 AW BANANA`. 
 
-Let's just do this in terminal:
+Latest version of the firmware can be downloaded from links within https://muos.dev/release/current
+
+But let's just get a direct link for this device to do things in terminal:
 
 ```
-wget https://dl.muos.dev/RG35XX-SPLUSH24/muOS-RG35XX-2405.1-REFRIED.zip
+wget https://file4.gofile.io/download/web/bd29159e-f2e7-4935-b1b1-9f2c9097bbec/muOS-RG35XX-SP-2410.3_AW_BANANA-445df3c8.img.gz
 ```
 ```
-unzip RG35XX-PLUSH24/muOS-RG35XX-2405.1-REFRIED.zip
+gzip -d muOS-RG35XX-SP-2410.3_AW_BANANA-445df3c8.img.gz
 ```
 
 ## Writing to a MicroSD card
@@ -46,7 +48,7 @@ Plug it into your linux machine.
 When you are ready, go ahead and start imaging with the following one-liner:
 
 ```
-sudo dd if=muOS-RG35XX-2405.1-REFRIED.img of=/dev/sdc status=progress && sync
+sudo dd if=muOS-RG35XX-SP-2410.3_AW_BANANA-445df3c8.img of=/dev/sdc status=progress && sync
 ```
 *`/dev/sdc` should be replaced with your proper drive for the card
 
