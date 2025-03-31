@@ -60,9 +60,9 @@ Hold the power button down until you see the green light on the side appears (ta
 
 The splash screen with the muOS logo will appear. 
 
-Within the "DEVICE TYPE" section you first see, make sure to select "RG35XX-SP".
+You'll be guided to set the region, date, and time information - go ahead and do this.
 
-After this, Let the device do its thing, setting up the system - you will see a lot of `Factory Reset` messages, but don't worry, it will keep you up to date with the process (even providing you with silly quotes along the way).
+Once that is complete, let the device do its thing, setting up the system - you will see a lot of `Factory Reset` messages, but don't worry, it will keep you up to date with the process (even providing you with silly quotes along the way).
 
 After 5-10 minutes this process should complete and you will be brought to a dashboard. Go ahead and hold the power button for a few seconds to turn the device off and take the MicroSD card out of the XX-SP and back into your linux machine.
 
