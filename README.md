@@ -137,14 +137,14 @@ There is a great collection of a ton of other themes in this repo: https://githu
 
 Something important I did for a change in organization of Saves and Save States was this:
 
-Go to **Application > RetroArch > Settings > Saving** and make the following changes:
+Go to **Apps > RetroArch > Settings > Saving** and make the following changes:
 
 - Set `Sort Saves into Folders by Core Name` to `OFF`
 - Set `Sort Save States into Folders by Core Name` to `OFF`
 - Set `Sort Saves into Folders by Content Directory` to `ON`
 - Set `Sort Save Sates into Folders by Content Directory` to `ON`
 
-Hit **Save Configuration** in the main RetroArch menu after this.
+Go back to the main retroarch menu > **Configuration File > Save Current Configuration** 
 
 This will allow your saves/states to be retained in their System-based folders instead of emulator Core-based folders, so a file for a GBA game like Wario Land 4 will be saved as `../ROMS/MUOS/save/state/GBA/Wario Land 4 (USA).sate1`
 
