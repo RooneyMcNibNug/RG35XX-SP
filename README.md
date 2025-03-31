@@ -122,7 +122,7 @@ These are bundled and compressed in `.zip` files. When you download these you us
 
 Usually on the site hosting the theme the creator will speifcify where these need to go, anyways.
 
-And to change the theme from your XX-SP: **Config > Theme Picker > {select the theme} > A BUTTON**
+And to change the theme from your XX-SP: **Config > Customization > Theme Picker > {select the theme} > A BUTTON**
 
 There are lots of crowd-sourced themes - unfortunately, a lot of them are showcased on a discord server (_sigh_).
 
