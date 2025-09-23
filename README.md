@@ -22,7 +22,7 @@ I will add things to this README as I make changes that seem.. interesting enoug
 
 ## Downloading the firmware
 
-At the time of writing, the latest version available is `muOS 2502.0 Pixie`. 
+At the time of writing, the latest version available is `MustardOS 2508.1 Canada Goose`. 
 
 Latest version of the firmware can be downloaded from links within https://muos.dev/release/current
 
@@ -32,7 +32,7 @@ But let's just get a direct link for this device to do things in terminal:
 wget https://file4.gofile.io/download/web/ae350b11-d48f-43d5-b262-eea98e1e8099/muOS-RG35XX-SP-2502.0_PIXIE-7c4e6a8f.img.gz
 ```
 ```
-gzip -d muOS-RG35XX-SP-2502.0_PIXIE-7c4e6a8f.img.gz
+gzip -d MustardOS_RG35XX-SP_2508.1_CANADA_GOOSE-140226a2.img.gz
 ```
 
 ## Writing to a MicroSD card
@@ -48,7 +48,7 @@ Plug it into your linux machine.
 When you are ready, go ahead and start imaging with the following one-liner:
 
 ```
-sudo dd if=muOS-RG35XX-SP-2502.0_PIXIE-7c4e6a8f.img of=/dev/sdc status=progress && sync
+sudo dd MustardOS_RG35XX-SP_2508.1_CANADA_GOOSE-140226a2.img of=/dev/sdc bs=4M status=progress && sync
 ```
 *`/dev/sdc` should be replaced with your proper drive for the card
 
